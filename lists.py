@@ -28,6 +28,46 @@ reverse() Reverses the order of the list
 sort() Sorts the list
 '''
 
+
+
+hosts = ["John", "Peppa", "Jack"]
+guests = ["Sam", "Pam", "Kate"]
+
+    #append()
+#hosts.append(guests)
+#print(hosts)
+
+    #extend()
+#hosts.extend(guests)
+#print(hosts)
+
+    #insert()
+#hosts.insert(1, "Marry")
+#print(hosts)
+
+    #remove()
+#hosts.remove("Peppa")
+#print(hosts)
+
+    #pop()
+#hosts.pop(0)
+#print(hosts)
+
+    #pop() - if no index removes the last item
+#hosts.pop()
+#print(hosts)
+
+    #sort() Sort the list based on how close the number is to 50:
+"""
+def myfunc(n):
+  return abs(n - 50)
+
+thislist = [100, 50, 65, 82, 23]
+thislist.sort(key = myfunc)
+print(thislist)
+
+"""
+
 #The basics
 squares = [1, 4, 9, 16, 25]
 squares
@@ -99,3 +139,5 @@ letters
 #built-in function list()
 x = list(('bobby', 'at', 'didcoding','dot', 'com')) # creates a list object
 x
+
+
