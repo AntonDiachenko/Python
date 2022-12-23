@@ -33,7 +33,7 @@ u
 # Tuples are immutable:
 t[0] = 88888
 
-# but they can contain mutable objects:
+# but they can contain mutable objects. Here we have tuple with 2 lists in it:
 v = ([1, 2, 3], [3, 2, 1])
 v
 
